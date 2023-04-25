@@ -1,0 +1,41 @@
+.activityImage {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+
+  @media (min-width: 1024px) {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.stickyBox {
+  height: 250px;
+  width: 250px;
+
+  p {
+    color: white;
+  }
+  @media (min-width: 1024px) {
+    height: 50%;
+    // width: 350px;
+    // margin-left: 100px;
+    margin-left: 25%;
+  }
+}
+
+.sticky {
+  display: flex;
+  align-items: center;
+}
+
+.mediationImage {
+  margin: 25%;
+  margin-top: 40%;
+}
+
+.cookingImage {
+  margin-left: 15%;
+  margin-top: 60%;
+}
