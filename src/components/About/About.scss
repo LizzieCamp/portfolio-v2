@@ -1,14 +1,3 @@
-.activityImage {
-  height: 150px;
-  width: 150px;
-  background-color: white;
-  border-radius: 50%;
-
-  @media (min-width: 1024px) {
-    height: 250px;
-    width: 250px;
-  }
-}
 
 .stickyBox {
   height: 250px;
@@ -30,12 +19,54 @@
   align-items: center;
 }
 
-.mediationImage {
-  margin: 25%;
-  margin-top: 40%;
+.meImage {
+  height: 250px;
+  z-index: -1;
 }
 
-.cookingImage {
-  margin-left: 15%;
-  margin-top: 60%;
+
+.homePageText {
+  color: #e2037a;
+  font-size: 50px;
+  @media only screen and (min-width: 1024px) {
+    font-size: 150px;
+
+    &.right {
+      padding-right: 250px;
+    }
+  }
+}
+
+
+.elizabethText {
+  @media only screen and (min-width: 1024px) {
+    padding-top: 150px;
+    padding-left: 250px;
+  }
+}
+
+.campText {
+  padding-top: 50px;
+  @media only screen and (min-width: 1024px) {
+    padding-top: 300px;
+  }
+}
+
+.softwareText {
+  padding-top: 100px;
+  @media only screen and (min-width: 1024px) {
+    padding-top: 450px;
+    padding-left: 250px;
+  }
+}
+
+.engineerText {
+  padding-top: 150px;
+  @media only screen and (min-width: 1024px) {
+    padding-top: 600px;
+  }
+}
+
+.testingThis {
+  z-index: 10;
 }
