@@ -9,9 +9,7 @@ import "./styles/styles";
 const App = () => {
   return (
     <div>
-      {/* <ParticlesBackground /> */}
-        <Test />
-        {/* <About /> */}
+        <About />
       
     </div>
   );
