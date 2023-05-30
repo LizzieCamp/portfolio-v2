@@ -1,0 +1,13 @@
+.messages {
+  color: white;
+  font-size: 26px;
+  width: 25%;
+  border-radius: 25px;
+  padding: 25px;
+  height: fit-content;
+  background-color: #e2037a;
+
+  &.right {
+    margin-right: 200px;
+  }
+}
