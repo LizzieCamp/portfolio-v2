@@ -1,0 +1,43 @@
+
+
+.elizabethText {
+  @media only screen and (min-width: 1024px) {
+    padding-top: 150px;
+    padding-left: 250px;
+  }
+}
+
+.campText {
+  padding-top: 50px;
+  @media only screen and (min-width: 1024px) {
+    padding-top: 300px;
+  }
+}
+
+.softwareText {
+  padding-top: 100px;
+  @media only screen and (min-width: 1024px) {
+    padding-top: 450px;
+    padding-left: 250px;
+  }
+}
+
+.engineerText {
+  padding-top: 150px;
+  @media only screen and (min-width: 1024px) {
+    padding-top: 600px;
+  }
+}
+
+.homePageText {
+  color: #e2037a;
+  font-size: 50px;
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 150px;
+
+    &.right {
+      padding-right: 250px;
+    }
+  }
+}

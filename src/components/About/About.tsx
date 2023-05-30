@@ -1,67 +1,19 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import "../../styles/styles";
+import { AboutSection } from "../AboutSection/AboutSection";
+import { IntroSection } from "../IntroSection/IntroSection";
 import { NavBar } from "../NavBar/NavBar";
 
-export const About = () => {
 
-  const alignCenter = { display: "flex", alignItems: "center" };
+export const alignCenter = { display: "flex", alignItems: "center" };
+export const About = () => {
   return (
     <div className="container" style={{ backgroundColor: "white" }}>
       <Parallax pages={10}>
-        <ParallaxLayer
-          horizontal={true}
-          offset={0}
-          speed={-5}
-          className="elizabethText"
-        >
-          <p className="homePageText">ELIZABETH</p>
-        </ParallaxLayer>
-        <ParallaxLayer
-          horizontal={true}
-          offset={0}
-          speed={5}
-          className="campText"
-          style={{
-            ...alignCenter,
-            width: "100vw",
-            alignItems: "unset",
-
-            justifyContent: "right",
-          }}
-        >
-          <p className="homePageText right">CAMP</p>
-        </ParallaxLayer>
-        <ParallaxLayer
-          horizontal={true}
-          offset={0}
-          speed={-4}
-          // style={{ paddingTop: "450px" }}
-          className="softwareText"
-        >
-          <p className="homePageText">SOFTWARE</p>
-        </ParallaxLayer>
-        <ParallaxLayer
-          horizontal={true}
-          offset={0}
-          speed={4}
-          style={{
-            ...alignCenter,
-            width: "100vw",
-            alignItems: "unset",
-            // paddingTop: "600px",
-
-            justifyContent: "flex-end",
-          }}
-          className="engineerText"
-        >
-          <p className="homePageText right">ENGINEER</p>
-        </ParallaxLayer>
+        <IntroSection />
 
         {/* NAV BAR  */}
         <ParallaxLayer
-          //   horizontal={true}
-          //   offset={1}
-          //   speed={4}
           sticky={{ start: 1, end: 10 }}
           style={{
             ...alignCenter,
@@ -75,166 +27,16 @@ export const About = () => {
 
         {/* ABOUT ME SECTION */}
         <ParallaxLayer
+          className="alignItems"
           style={{
-            ...alignCenter,
             width: "100vw",
             justifyContent: "center",
           }}
           sticky={{ start: 1, end: 3 }}
         >
-          <div>
-            <img
-              className="meImage"
-              src="./images/AvatarMakerHappy.png"
-            />
-          </div>
+          <img className="meImage" src="./images/AvatarMakerHappy.png" />
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.5} style={{ paddingLeft: "200px" }} className="testingThis">
-          <p
-            style={{
-              color: "white",
-              fontSize: "26px",
-              width: "25%",
-              borderRadius: "25px",
-              padding: "25px",
-              height: "fit-content",
-              backgroundColor: "#E2037A",
-            }}
-          >
-            Hello👋🏻 I'm Elizabeth, a Frontend Software Engineer, currently
-            working for Elsevier.
-          </p>
-        </ParallaxLayer>
-        <ParallaxLayer
-          offset={2}
-          speed={0.5}
-          style={{
-            ...alignCenter,
-            width: "100vw",
-            alignItems: "unset",
-            paddingTop: "350px",
-            justifyContent: "right",
-          }}
-        >
-          <p
-            style={{
-              color: "white",
-              fontSize: "26px",
-              width: "25%",
-              borderRadius: "25px",
-              padding: "25px",
-              height: "fit-content",
-              backgroundColor: "#E2037A",
-              marginRight: "200px",
-            }}
-          >
-            I graduated Univeristy in 2019 with a 2.1 in Computer Science.
-          </p>
-        </ParallaxLayer>
-        <ParallaxLayer
-          offset={2}
-          speed={0.5}
-          style={{
-            paddingTop: "700px",
-            paddingLeft: "200px",
-            // width: "fit-content",
-          }}
-        >
-          <p
-            style={{
-              color: "white",
-              fontSize: "26px",
-              width: "25%",
-              borderRadius: "25px",
-              padding: "25px",
-              height: "fit-content",
-              backgroundColor: "#E2037A",
-            }}
-          >
-            I have been working professionally as a Software Engineer for just
-            over 3.5 years.
-          </p>
-        </ParallaxLayer>
-        <ParallaxLayer
-          offset={2}
-          speed={0.5}
-          style={{
-            ...alignCenter,
-            width: "100vw",
-            alignItems: "unset",
-            paddingTop: "1050px",
-            justifyContent: "right",
-          }}
-        >
-          <p
-            style={{
-              color: "white",
-              fontSize: "26px",
-              width: "25%",
-              borderRadius: "25px",
-              padding: "25px",
-              height: "fit-content",
-              backgroundColor: "#E2037A",
-              marginRight: "200px",
-            }}
-          >
-            WOW MORE FACTS
-          </p>
-        </ParallaxLayer>
-        <ParallaxLayer
-          offset={2}
-          speed={0.5}
-          style={{
-            paddingTop: "1400px",
-            paddingLeft: "200px",
-            // width: "fit-content",
-          }}
-        >
-          <p
-            style={{
-              color: "white",
-              fontSize: "26px",
-              width: "25%",
-              borderRadius: "25px",
-              padding: "25px",
-              height: "fit-content",
-              backgroundColor: "#E2037A",
-            }}
-          >
-            I have been working professionally as a Software Engineer for just
-            over 3.5 years.
-          </p>
-        </ParallaxLayer>
-        <ParallaxLayer
-          offset={2}
-          speed={0.5}
-          style={{
-            ...alignCenter,
-            width: "100vw",
-            alignItems: "unset",
-            paddingTop: "1750px",
-            justifyContent: "right",
-          }}
-        >
-          <p
-            style={{
-              color: "white",
-              fontSize: "26px",
-              width: "25%",
-              borderRadius: "25px",
-              padding: "25px",
-              height: "fit-content",
-              backgroundColor: "#E2037A",
-              marginRight: "200px",
-            }}
-          >
-            WOW MORE FACTS
-          </p>
-        </ParallaxLayer>
-
-        {/* 
-        skills bit?
-         */}
+        <AboutSection />
 
         {/* PROJECTS PART  */}
 
@@ -245,7 +47,6 @@ export const About = () => {
             width: "100vw",
             paddingTop: "100px",
             paddingLeft: "150px",
-            // justifyContent: "center",
           }}
           sticky={{ start: 4, end: 7 }}
         >

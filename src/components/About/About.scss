@@ -1,72 +1,28 @@
+// .stickyBox {
+//   height: 250px;
+//   width: 250px;
 
-.stickyBox {
-  height: 250px;
-  width: 250px;
+//   p {
+//     color: white;
+//   }
+//   @media (min-width: 1024px) {
+//     height: 50%;
+//     // width: 350px;
+//     // margin-left: 100px;
+//     margin-left: 25%;
+//   }
+// }
 
-  p {
-    color: white;
-  }
-  @media (min-width: 1024px) {
-    height: 50%;
-    // width: 350px;
-    // margin-left: 100px;
-    margin-left: 25%;
-  }
-}
-
-.sticky {
-  display: flex;
-  align-items: center;
-}
+// .sticky {
+//   display: flex;
+//   align-items: center;
+// }
 
 .meImage {
   height: 250px;
-  z-index: -1;
 }
 
-
-.homePageText {
-  color: #e2037a;
-  font-size: 50px;
-  @media only screen and (min-width: 1024px) {
-    font-size: 150px;
-
-    &.right {
-      padding-right: 250px;
-    }
-  }
-}
-
-
-.elizabethText {
-  @media only screen and (min-width: 1024px) {
-    padding-top: 150px;
-    padding-left: 250px;
-  }
-}
-
-.campText {
-  padding-top: 50px;
-  @media only screen and (min-width: 1024px) {
-    padding-top: 300px;
-  }
-}
-
-.softwareText {
-  padding-top: 100px;
-  @media only screen and (min-width: 1024px) {
-    padding-top: 450px;
-    padding-left: 250px;
-  }
-}
-
-.engineerText {
-  padding-top: 150px;
-  @media only screen and (min-width: 1024px) {
-    padding-top: 600px;
-  }
-}
-
-.testingThis {
+.position {
   z-index: 10;
 }
+
