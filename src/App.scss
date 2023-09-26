@@ -12,6 +12,10 @@
 
 .onRight {
   align-items: unset;
-  justify-content: right;
+  justify-content: flex-end;
   display: flex;
+}
+
+body {
+  margin: 0;
 }

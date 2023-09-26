@@ -21,7 +21,7 @@ const aboutItems: AboutItem[] = [
   },
   {
     words:
-      " I have been working professionally as a Software Engineer for just over 3.5 years.",
+      " I have 4 years professional experience working as a Software Engineer.",
     className: ["position"],
     style: { paddingLeft: "200px", paddingTop: "700px" },
   },
@@ -44,7 +44,7 @@ const aboutItems: AboutItem[] = [
 
 const renderAbout = aboutItems.map((item, index) => (
   <ParallaxLayer
-    offset={2}
+    offset={1.5}
     speed={0.5}
     style={item.style ? item.style : undefined}
     className={item.className[0]}
