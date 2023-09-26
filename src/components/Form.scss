@@ -1,0 +1,80 @@
+$form-width: 500px;
+
+.form {
+  background-color: #e2037a;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 0 5%;
+
+  @media only screen and (min-width: 1024px) {
+    margin-bottom: 60px;
+    height: 400px;
+    width: $form-width;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  p {
+    color: white;
+  }
+}
+
+::placeholder {
+  color: #b84c65;
+  opacity: 1;
+}
+
+.checkMark {
+  width: 40%;
+  padding-top: 25px;
+
+  @media only screen and (min-width: 1024px) {
+    width: 200px;
+    padding-top: 25px;
+  }
+}
+
+.inputText {
+  height: 25px;
+  border-radius: 10px;
+  background-color: white;
+  width: fit-content;
+  width: 100%;
+  border: 1px solid transparent;
+  margin: 10px 0;
+  color: #e2037a;
+  font-size: 20px;
+  padding: 5px 0 5px 5px;
+}
+.textArea {
+  height: 100px;
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+  border: 1px solid transparent;
+  margin: 10px 0;
+  font-size: 20px;
+  padding: 5px 0 5px 5px;
+  resize: none;
+}
+
+.formContainer {
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+}
+
+.submitButton {
+  border-radius: 5px;
+  border: 0;
+  height: 25px;
+  width: 100px;
+  background-color: white;
+  color: #b84c65;
+  font-size: 20px;
+
+  @media only screen and (min-width: 1024px) {
+    margin-top: 50px;
+    margin-left: ($form-width - 100px) / 2;
+  }
+}

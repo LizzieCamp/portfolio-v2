@@ -1,0 +1,47 @@
+.projectsText {
+  color: white;
+  font-size: 26px;
+  width: 50%;
+  border-radius: 25px;
+  padding: 25px;
+  height: fit-content;
+  background-color: #e2037a;
+
+  @media (min-width: 1024px) {
+    width: 25%;
+  }
+  &.right {
+    @media (min-width: 1024px) {
+      margin-right: 200px;
+    }
+  }
+}
+
+.projects {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+
+  &.right {
+    @media (min-width: 1024px) {
+      align-items: unset;
+      justify-content: flex-end;
+    }
+  }
+
+  &.left {
+    @media (min-width: 1024px) {
+      padding-left: 250px;
+      justify-content: unset;
+    }
+  }
+}
+
+.projectsLeft {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  width: 100vw;
+  padding-left: 250px;
+}

@@ -40,7 +40,6 @@ const renderWords = introItems.map((item, index) => (
     speed={item.speed}
     className={item.classNames[0]}
     style={item.style ? item.style : undefined}
-    key={index}
   >
     <p className={item.classNames[1]}>{item.word}</p>
   </ParallaxLayer>
