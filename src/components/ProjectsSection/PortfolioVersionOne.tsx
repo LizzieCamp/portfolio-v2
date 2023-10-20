@@ -17,9 +17,9 @@ const portfolioVersionOneItems: PortfolioVersionOneItem[] = [
     layerStyle: { marginTop: "350px" },
   },
   {
-    linkText: "Portfolio V1 here:",
+    linkText: "Portfolio V1",
     href: "https://lizziecamp.github.io/Portfolio/",
-    word: "Created using React, Javascript, SCSS. Go to ",
+    word: "Created using React, Javascript, SCSS. ",
     layerStyle: { marginTop: "350px" },
     paragraphStyle: { marginTop: "550px" },
   },
@@ -37,7 +37,7 @@ const renderWords = portfolioVersionOneItems.map((item, index) => (
       className="projectsText"
     >
       {item.word}
-      <a href={item.href}>{item.linkText}</a>
+      <a className="projectLink" target="_blank" href={item.href}>{item.linkText}</a>
     </p>
   </ParallaxLayer>
 ));
