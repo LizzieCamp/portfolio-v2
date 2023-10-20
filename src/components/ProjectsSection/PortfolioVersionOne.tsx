@@ -27,7 +27,7 @@ const portfolioVersionOneItems: PortfolioVersionOneItem[] = [
 
 const renderWords = portfolioVersionOneItems.map((item, index) => (
   <ParallaxLayer
-    offset={10}
+    offset={9}
     speed={0}
     className="position projects left"
     style={item.layerStyle ? item.layerStyle : undefined}

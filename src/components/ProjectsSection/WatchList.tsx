@@ -32,7 +32,7 @@ const watchListItems: WatchListItem[] = [
 
 const renderWords = watchListItems.map((item, index) => (
   <ParallaxLayer
-    offset={6}
+    offset={5}
     speed={0}
     className="position projects left"
     style={item.layerStyle ? item.layerStyle : undefined}

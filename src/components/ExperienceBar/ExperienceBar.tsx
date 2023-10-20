@@ -47,7 +47,7 @@ const experienceItems: ExpereinceItem[] = [
 
 const renderExperience = experienceItems.map((item, index) => (
   <ParallaxLayer
-    offset={12}
+    offset={11}
     speed={0}
     className={`experienceMessage ${item.className}`}
     style={item.style ? item.style : undefined}
