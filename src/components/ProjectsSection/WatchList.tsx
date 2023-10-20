@@ -22,9 +22,9 @@ const watchListItems: WatchListItem[] = [
     paragraphStyle: { marginTop: "550px" },
   },
   {
-    linkText: "The Watch List:",
+    linkText: "The Watch List",
     href: "https://lizziecamp.github.io/the-watch-list/",
-    word: "This project is built using React, Typescript and SCSS. Go to ",
+    word: "This project is built using React, Typescript and SCSS. ",
     layerStyle: { marginTop: "350px" },
     paragraphStyle: { marginTop: "1050px" },
   },
@@ -42,7 +42,7 @@ const renderWords = watchListItems.map((item, index) => (
       className="projectsText"
     >
       {item.word}
-      <a href={item.href}>{item.linkText}</a>
+      <a className="projectLink" target="_blank" href={item.href}>{item.linkText}</a>
     </p>
   </ParallaxLayer>
 ));
