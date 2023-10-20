@@ -11,26 +11,31 @@ type EcommerceProjectItem = {
 
 const ecommerceProjectItems: EcommerceProjectItem[] = [
   {
-    word: "online shop woop woop ",
+    word: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam urna ut nulla rhoncus, in convallis nunc ultricies.",
     layerStyle: { marginTop: "350px" },
   },
   {
-    word: "Created using React, TypeScript",
-    layerStyle: { marginTop: "550px" },
+    word: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam urna ut nulla rhoncus, in convallis nunc ultricies.",
+    layerStyle: { marginTop: "350px" },
     paragraphStyle: { marginTop: "550px" },
+  },
+  {
+    word: "This project is built using React, Typescript and SCSS.",
+    layerStyle: { marginTop: "350px" },
+    paragraphStyle: { marginTop: "1050px" },
   },
 ];
 
 const renderWords = ecommerceProjectItems.map((item, index) => (
   <ParallaxLayer
-    offset={10}
+    offset={4}
     speed={0}
-    className="position projects left"
+    className="position projects right"
     style={item.layerStyle ? item.layerStyle : undefined}
   >
     <p
       style={item.paragraphStyle ? item.paragraphStyle : undefined}
-      className="projectsText"
+      className="projectsText right"
     >
       {item.word}
     </p>

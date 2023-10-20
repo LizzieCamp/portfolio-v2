@@ -19,3 +19,86 @@
 body {
   margin: 0;
 }
+
+.meImage {
+  height: 250px;
+}
+
+.aboutImage {
+  z-index: -1;
+}
+.position {
+  z-index: 10;
+}
+
+.projectImage {
+  justify-content: center;
+
+  @media (min-width: 1024px) {
+    padding-left: 100px;
+    justify-content: unset;
+  }
+  @media (min-width: 1200px) {
+    padding-left: 250px;
+    justify-content: unset;
+  }
+
+  &.right {
+    @media (min-width: 1024px) {
+      justify-content: flex-end;
+      align-items: center;
+      width: 100vw;
+      padding-left: 0;
+    }
+
+    div {
+      @media (min-width: 1024px) {
+        margin-right: 100px;
+      }
+      @media (min-width: 1200px) {
+        margin-right: 200px;
+      }
+    }
+  }
+
+  img {
+    width: 80vw;
+
+    @media (min-width: 1024px) {
+      width: 35vw;
+    }
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: 1024px) {
+    justify-content: unset;
+    width: 100vw;
+    padding-left: 150px;
+    padding-top: 100px;
+  }
+
+  h1 {
+    font-weight: 100;
+    color: #e2037a;
+    font-size: 40px;
+  }
+}
+
+.fallbackImage {
+  display: none;
+
+  @media (prefers-reduced-motion) {
+    display: block;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  /* Hide the animated GIF when motion is reduced */
+  picture img.video {
+    display: none;
+  }
+}

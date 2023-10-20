@@ -1,13 +1,15 @@
 import React from "react";
 import "../styles/styles";
 
-export default (props) => {
+const FormInput = (props) => {
   return (
     <input
-    name={props.name}
+      name={props.name}
       type={props.type}
       className="inputText"
       placeholder={props.placeholder}
     />
   );
 };
+
+export default FormInput;
