@@ -1,7 +1,7 @@
 .projectsText {
   color: white;
   font-size: 26px;
-  width: 50%;
+  width: 80%;
   border-radius: 25px;
   padding: 25px;
   height: fit-content;
@@ -12,6 +12,9 @@
   }
   &.right {
     @media (min-width: 1024px) {
+      margin-right: 100px;
+    }
+    @media (min-width: 1200px) {
       margin-right: 200px;
     }
   }
@@ -32,16 +35,12 @@
 
   &.left {
     @media (min-width: 1024px) {
+      padding-left: 100px;
+      justify-content: unset;
+    }
+    @media (min-width: 1200px) {
       padding-left: 250px;
       justify-content: unset;
     }
   }
-}
-
-.projectsLeft {
-  align-items: center;
-  justify-content: flex-end;
-  display: flex;
-  width: 100vw;
-  padding-left: 250px;
 }

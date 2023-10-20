@@ -11,8 +11,7 @@ const aboutItems: AboutItem[] = [
   {
     words:
       "Hello👋🏻 I'm Elizabeth, a Frontend Software Engineer, currently working for Elsevier.",
-    className: ["position"],
-    style: { paddingLeft: "200px" },
+    className: ["position", "left"],
   },
   {
     words: "I graduated Univeristy in 2019 with a 2.1 in Computer Science.",
@@ -22,8 +21,8 @@ const aboutItems: AboutItem[] = [
   {
     words:
       " I have 4 years professional experience working as a Software Engineer.",
-    className: ["position"],
-    style: { paddingLeft: "200px", paddingTop: "700px" },
+    className: ["position", "left"],
+    style: { paddingTop: "700px" },
   },
   {
     words: "This will be another super fun fact",
@@ -32,8 +31,8 @@ const aboutItems: AboutItem[] = [
   },
   {
     words: "This will be another super fun fact",
-    className: ["position"],
-    style: { paddingLeft: "200px", paddingTop: "1400px" },
+    className: ["position", "left"],
+    style: { paddingTop: "1400px" },
   },
   {
     words: "This will be another super fun fact",

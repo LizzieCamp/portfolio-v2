@@ -1,0 +1,63 @@
+.experienceText {
+  color: white;
+  font-size: 26px;
+  width: 80%;
+  border-radius: 25px;
+  padding: 25px;
+  height: fit-content;
+  background-color: #e2037a;
+
+  &.right {
+    @media only screen and (min-width: 1025px) {
+      margin-right: 230px;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+    width: 25%;
+  }
+}
+
+.experienceBar {
+  height: 90vh;
+  width: 15px;
+  margin: auto;
+  background-color: #e2037a;
+}
+
+.experienceMessage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+
+  &.left {
+    @media only screen and (min-width: 1025px) {
+      padding-left: 250px;
+    }
+  }
+
+  &.right {
+    margin-bottom: 200px;
+
+    @media only screen and (min-width: 1025px) {
+      justify-content: flex-end;
+      margin-bottom: 500px;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+    flex-direction: row;
+  }
+}
+
+.yearLabel {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 25px;
+
+  @media only screen and (min-width: 1025px) {
+  }
+}
