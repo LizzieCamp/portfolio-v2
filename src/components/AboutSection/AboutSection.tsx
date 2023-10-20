@@ -25,19 +25,9 @@ const aboutItems: AboutItem[] = [
     style: { paddingTop: "700px" },
   },
   {
-    words: "This will be another super fun fact",
+    words: "When i'm not developing my Sotware Engineering skills, you'll find me at the gym, stuck in a book or doing some yoga.",
     className: ["position onRight", "right"],
     style: { width: "100vw", paddingTop: "1050px" },
-  },
-  {
-    words: "This will be another super fun fact",
-    className: ["position", "left"],
-    style: { paddingTop: "1400px" },
-  },
-  {
-    words: "This will be another super fun fact",
-    className: ["position onRight", "right"],
-    style: { width: "100vw", paddingTop: "1750px" },
   },
 ];
 

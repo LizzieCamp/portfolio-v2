@@ -15,7 +15,7 @@ export const alignCenter = { display: "flex", alignItems: "center" };
 const App = () => {
   return (
     <div className="container" style={{ backgroundColor: "white" }}>
-      <Parallax pages={18}>
+      <Parallax pages={17}>
         <IntroSection />
         {/* ABOUT ME SECTION */}
         <ParallaxLayer
@@ -24,7 +24,7 @@ const App = () => {
             width: "100vw",
             justifyContent: "center",
           }}
-          sticky={{ start: 1, end: 3 }}
+          sticky={{ start: 1, end: 2 }}
         >
           <img className="meImage" src="./images/AvatarMakerHappy.png" />
         </ParallaxLayer>
@@ -37,7 +37,7 @@ const App = () => {
           style={{
             zIndex: "-1",
           }}
-          sticky={{ start: 4, end: 11 }}
+          sticky={{ start: 3, end: 10 }}
         >
           <h1>Projects</h1>
         </ParallaxLayer>
@@ -48,7 +48,7 @@ const App = () => {
             width: "100vw",
             zIndex: "-1",
           }}
-          sticky={{ start: 4, end: 5 }}
+          sticky={{ start: 3, end: 4 }}
         >
           <div>
             <img src="./images/online-shop.png" />
@@ -58,7 +58,7 @@ const App = () => {
         <WatchList />
         <ParallaxLayer
           className="projectImage right"
-          sticky={{ start: 6, end: 7 }}
+          sticky={{ start: 5, end: 6 }}
           style={{
             ...alignCenter,
             width: "100vw",
@@ -83,7 +83,7 @@ const App = () => {
             width: "100vw",
             zIndex: "-1",
           }}
-          sticky={{ start: 8, end: 9 }}
+          sticky={{ start: 7, end: 8 }}
         >
           <div>
             <picture>
@@ -103,7 +103,7 @@ const App = () => {
         <PortfolioVersionOne />
         <ParallaxLayer
           className="projectImage right"
-          sticky={{ start: 10, end: 11 }}
+          sticky={{ start: 9, end: 10 }}
           style={{
             ...alignCenter,
             width: "100vw",
@@ -126,7 +126,7 @@ const App = () => {
           style={{
             zIndex: "-1",
           }}
-          sticky={{ start: 12, end: 13.5 }}
+          sticky={{ start: 11, end: 12.5 }}
         >
           <p style={{ color: "#E2037A", fontSize: "40px" }}>Experience</p>
         </ParallaxLayer>
@@ -136,17 +136,17 @@ const App = () => {
             paddingTop: "200px",
             zIndex: "-1",
           }}
-          sticky={{ start: 12, end: 13.5 }}
+          sticky={{ start: 11, end: 12.5 }}
         >
           <div className="experienceBar"></div>
         </ParallaxLayer>
         <ExperienceSection />
-        <ParallaxLayer className="title" sticky={{ start: 15, end: 17 }}>
+        <ParallaxLayer className="title" sticky={{ start: 14, end: 16 }}>
           <p style={{ color: "#E2037A", fontSize: "40px" }}>Contact Me</p>
         </ParallaxLayer>
         <ParallaxLayer
           style={{ paddingTop: "250px" }}
-          sticky={{ start: 15, end: 17 }}
+          sticky={{ start: 14, end: 16 }}
         >
           <Form />
         </ParallaxLayer>

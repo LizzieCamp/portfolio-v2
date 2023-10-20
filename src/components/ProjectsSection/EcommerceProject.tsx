@@ -28,7 +28,7 @@ const ecommerceProjectItems: EcommerceProjectItem[] = [
 
 const renderWords = ecommerceProjectItems.map((item, index) => (
   <ParallaxLayer
-    offset={4}
+    offset={3}
     speed={0}
     className="position projects right"
     style={item.layerStyle ? item.layerStyle : undefined}

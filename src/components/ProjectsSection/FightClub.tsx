@@ -28,7 +28,7 @@ const fightClubItems: FightClubItem[] = [
 
 const renderWords = fightClubItems.map((item, index) => (
   <ParallaxLayer
-    offset={8}
+    offset={7}
     speed={0}
     className="position projects right"
     style={item.layerStyle ? item.layerStyle : undefined}
