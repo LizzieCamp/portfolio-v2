@@ -26,7 +26,7 @@ const App = () => {
           }}
           sticky={{ start: 1, end: 2 }}
         >
-          <img className="meImage" src="./images/AvatarMakerHappy.png" />
+          <img className="meImage" src="Images/AvatarMakerHappy.png" />
         </ParallaxLayer>
         <AboutSection />
 
@@ -51,7 +51,7 @@ const App = () => {
           sticky={{ start: 3, end: 4 }}
         >
           <div>
-            <img src="./images/online-shop.png" />
+            <img src="Images/online-shop.png" />
           </div>
         </ParallaxLayer>
         <EcommerceProject />
@@ -67,10 +67,10 @@ const App = () => {
         >
           <div>
             <picture>
-              <img className="video" srcSet="./images/watch-list-gif.gif" />
+              <img className="video" srcSet="Images/watch-list-gif.gif" />
               <img
                 className="fallbackImage"
-                src="./images/the-watch-list-fallback.png"
+                src="Images/the-watch-list-fallback.png"
                 alt="Fallback Image"
               />
             </picture>
@@ -89,11 +89,11 @@ const App = () => {
             <picture>
               <img
                 className="video"
-                srcSet="./images/fight-club-placeholder.png"
+                srcSet="Images/fight-club-placeholder.png"
               />
               <img
                 className="fallbackImage"
-                src="./images/fight-club-placeholder.png"
+                src="Images/fight-club-placeholder.png"
                 alt="Fallback Image"
               />
             </picture>
@@ -112,10 +112,10 @@ const App = () => {
         >
           <div>
             <picture>
-              <img className="video" srcSet="./images/portfolio-gif.gif" />
+              <img className="video" srcSet="Images/portfolio-gif.gif" />
               <img
                 className="fallbackImage"
-                src="./images/portfolio-v1-fallback.png"
+                src="Images/portfolio-v1-fallback.png"
                 alt="Fallback Image"
               />
             </picture>
